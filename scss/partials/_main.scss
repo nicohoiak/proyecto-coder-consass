@@ -1,0 +1,48 @@
+.main-titulo {
+    font-size: 2rem;
+    margin-left: 2rem;
+}
+.contenido-inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-inicio img {
+    width: 900px;
+    margin-left: 2rem;
+    margin-top: 5rem;
+
+}
+.contenido-inicio p {
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.contenido-cursos{
+    margin-top: 1rem;
+}
+.contenido-nosotros{
+    margin-top: 1rem;
+}
+.container-galeria {
+    display: grid;
+    grid-template-rows: repeat(5, 250px);
+    grid-template-columns: repeat(5, 350px);
+    row-gap: 10px;
+    column-gap: 10px;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.curso-ppa{
+    font-size: larger;
+    margin-top: 1rem;
+    h2{
+        font-size: larger;
+    }
+}
+
+.curso-pc{
+    font-size: larger;
+    margin-top: 3rem;
+}

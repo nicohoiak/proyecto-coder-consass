@@ -1,0 +1,46 @@
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/header";
+@import "partials/footer";
+@import "partials/main";
+@import "partials/galeria";
+
+
+.button-contact{
+    color: white;
+    background-color: $color-celesteoscuro;
+}
+
+
+
+/* @media screen and (max-width: 425px) {
+
+
+    nav ul{
+        display: none;
+    }
+
+    h.logo{
+        align-items: center;
+    }
+
+    .contenido-inicio{
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    .contenido img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer p {
+        display: none;
+    }
+    
+    footer iframe{
+        display: none;
+    }
+} */
+
