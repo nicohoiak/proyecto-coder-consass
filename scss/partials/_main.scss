@@ -6,17 +6,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include mobile{
+        flex-direction: column;
+    }
+    
 }
 .contenido-inicio img {
     width: 900px;
     margin-left: 2rem;
     margin-top: 5rem;
 
+    @include mobile{
+        flex-direction: column;
+    }
+
 }
 .contenido-inicio p {
     font-size: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
+    @include mobile{
+        flex-direction: column;
+    }
 }
 .contenido-cursos{
     margin-top: 1rem;
