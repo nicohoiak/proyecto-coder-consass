@@ -1,15 +1,16 @@
+
 .main-titulo {
-    font-size: 2rem;
+    text-decoration: underline;
+    margin-top: 1rem;
+    font-size: 3rem;
     margin-left: 2rem;
+    justify-content: center;
 }
 .contenido-inicio{
     display: flex;
     justify-content: center;
     align-items: center;
 
-    @include mobile{
-        flex-direction: column;
-    }
     
 }
 .contenido-inicio img {
@@ -31,6 +32,66 @@
     }
 }
 
+.contenido-cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+}
+
+.curso-ppa{
+    font-size: larger;
+    margin-top: 3rem;
+    h2{
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+}
+
+.curso-pc{
+    font-size: larger;
+    margin-top: 3rem;
+    h3{
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+}
+
+.curso-tcp{
+    font-size: larger;
+    margin-top: 3rem;
+    h4{
+        text-decoration: underline;
+        font-size: xx-large;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}
+
+.contenido-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: larger;
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+}
+.contenido-galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .container-galeria {
     display: grid;
     grid-template-rows: repeat(5, 250px);
@@ -41,15 +102,13 @@
     justify-content: center;
 }
 
-.curso-ppa{
-    font-size: larger;
-    margin-top: 1rem;
-    h2{
-        font-size: larger;
+.contenido-contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .box-contacto{
+        margin-top: 3rem;
     }
 }
 
-.curso-pc{
-    font-size: larger;
-    margin-top: 3rem;
-}
